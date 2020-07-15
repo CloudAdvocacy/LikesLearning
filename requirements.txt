@@ -1,0 +1,5 @@
+pandas
+matplotlib
+azure-cognitiveservices-vision-computervision
+sklearn
+wordcloud

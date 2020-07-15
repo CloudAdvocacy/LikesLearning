@@ -1,0 +1,13 @@
+{
+  // Install ESLint and Peacock extensions
+  "extensions": [
+    "ms-python.python"
+  ],
+
+  "settings": {
+    "python.pythonPath": "/opt/python/latest/bin/python"
+  },
+
+  // Run Bash script in .devcontainer directory
+  "postCreateCommand": "/opt/python/latest/bin/pip install -r ./requirements.txt"
+}
